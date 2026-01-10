@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
-// Definição da constante para o número de territórios
+// --- Definição da constante para o número de territórios ---
 #define MAX 5
 
-// REQUISITO: Criação da struct Territorio
+// --- Criação da struct Territorio ---
 struct Territorio {
     char nome[30];
     char cor[10];
@@ -12,7 +12,7 @@ struct Territorio {
 };
 
 int main() {
-    // REQUISITO: Vetor de structs
+    // --- Criando vetor de structs ---
     struct Territorio lista[MAX];
     int i;
 
